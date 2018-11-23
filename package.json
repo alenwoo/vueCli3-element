@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "mock": "json-server mock/db.json --port 3003"
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -20,6 +21,7 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0-0",
+    "vue-loader": "^14.2.2",
     "vue-template-compiler": "^2.5.17"
   },
   "eslintConfig": {
@@ -45,5 +47,17 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "description": "```\r npm install\r ```",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alenwoo/vueCli3-element.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alenwoo/vueCli3-element/issues"
+  },
+  "homepage": "https://github.com/alenwoo/vueCli3-element#readme"
 }
